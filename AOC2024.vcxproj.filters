@@ -18,10 +18,24 @@
     <ClCompile Include="AOC2024.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Day1.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="Day2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Days.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
