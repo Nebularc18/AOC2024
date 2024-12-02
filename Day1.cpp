@@ -12,7 +12,7 @@ void day1()
 
     const int NUMBERLINES = 1000;
     int numArray1[NUMBERLINES], numArray2[NUMBERLINES];
-    int n = sizeof(numArray1) / sizeof(numArray1[0]);
+    int size = sizeof(numArray1) / sizeof(numArray1[0]);
     int sum = 0, num3 = 0;
 
     while (std::getline(file, line))
@@ -26,8 +26,8 @@ void day1()
         num3++;
     }
 
-    std::sort(numArray1, numArray1 + n);
-    std::sort(numArray2, numArray2 + n);
+    std::sort(numArray1, numArray1 + size);
+    std::sort(numArray2, numArray2 + size);
 
     for (int i = 0;i < NUMBERLINES;i++)
     {
