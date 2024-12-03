@@ -130,10 +130,12 @@
     <ClCompile Include="AOC2024.cpp" />
     <ClCompile Include="Day1.cpp" />
     <ClCompile Include="Day2.cpp" />
+    <ClCompile Include="Day3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Day1.txt" />
     <Text Include="Day2.txt" />
+    <Text Include="Day3.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Days.h" />
